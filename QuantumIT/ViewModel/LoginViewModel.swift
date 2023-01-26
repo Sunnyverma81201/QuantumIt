@@ -56,22 +56,22 @@ class LoginViewModel: ObservableObject{
 
     
     func signInWithGoogle(user: GIDGoogleUser) {
-        Task{
-            do{
-                guard let idToken = user.authentication.idToken else{return}
-                let accesToken = user.authentication.accessToken
-                
-                let credential = OAuthProvider.credential (withProviderID: idToken, accessToken: accesToken)
-                try await Auth.auth().signIn(with: credential)
-                
-                print("Sucess Google!")
-                await MainActor.run (body: {
-                    withAnimation(.easeInOut){isLoggedIn = true}
-                })
-            }catch{
-//                await handleError(error: error)
-            }
-        }
+//        Task{
+//            do{
+//                guard let idToken = user.authentication.idToken else{return}
+//                let accesToken = user.authentication.accessToken
+//
+//                let credential = OAuthProvider.credential (withProviderID: idToken, accessToken: accesToken)
+//                try await Auth.auth().signIn(with: credential)
+//
+//                print("Sucess Google!")
+//                await MainActor.run (body: {
+//                    withAnimation(.easeInOut){isLoggedIn = true}
+//                })
+//            }catch{
+////                await handleError(error: error)
+//            }
+//        }
     }
     
     func signOut() async {

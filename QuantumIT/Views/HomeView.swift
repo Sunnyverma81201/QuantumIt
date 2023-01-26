@@ -8,8 +8,19 @@
 import SwiftUI
 
 struct HomeView: View {
+    @ObservedObject var vm = LoginViewModel()
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button("Logout") {
+            Task {
+                await vm.signOut()
+            }
+        }
+        .padding()
+        .background(Color.accentColor)
+        .foregroundColor(.white)
+        .cornerRadius(10)
+
     }
 }
 

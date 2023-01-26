@@ -15,10 +15,10 @@
 		102E9D202982A99400A2E474 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 102E9D1F2982A99400A2E474 /* FirebaseAnalytics */; };
 		102E9D222982A99400A2E474 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 102E9D212982A99400A2E474 /* FirebaseAuth */; };
 		102E9D242982A99400A2E474 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 102E9D232982A99400A2E474 /* FirebaseAuthCombine-Community */; };
-		102E9D282982B40800A2E474 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 102E9D272982B40800A2E474 /* GoogleService-Info.plist */; };
 		102E9D2A2982B93C00A2E474 /* LoginViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 102E9D292982B93C00A2E474 /* LoginViewModel.swift */; };
 		102E9D2D2982BD2600A2E474 /* GoogleSignIn in Frameworks */ = {isa = PBXBuildFile; productRef = 102E9D2C2982BD2600A2E474 /* GoogleSignIn */; };
 		102E9D2F2982BD2600A2E474 /* GoogleSignInSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 102E9D2E2982BD2600A2E474 /* GoogleSignInSwift */; };
+		102E9D322982CC6C00A2E474 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 102E9D312982CC6B00A2E474 /* GoogleService-Info.plist */; };
 		10BD1D2E297FEE5500D6F8BD /* QuantumITApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD1D2D297FEE5500D6F8BD /* QuantumITApp.swift */; };
 		10BD1D30297FEE5500D6F8BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD1D2F297FEE5500D6F8BD /* ContentView.swift */; };
 		10BD1D32297FEE5600D6F8BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10BD1D31297FEE5600D6F8BD /* Assets.xcassets */; };
@@ -59,9 +59,9 @@
 		102DEAC129825F6A00FFB26C /* CartModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartModel.swift; sourceTree = "<group>"; };
 		102DEACC298265FB00FFB26C /* CartDisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartDisplayView.swift; sourceTree = "<group>"; };
 		102DEAD129827E4C00FFB26C /* CartsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartsViewModel.swift; sourceTree = "<group>"; };
-		102E9D272982B40800A2E474 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../../../../Downloads/GoogleService-Info.plist"; sourceTree = "<group>"; };
 		102E9D292982B93C00A2E474 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = "<group>"; };
 		102E9D302982BD6A00A2E474 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		102E9D312982CC6B00A2E474 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		10BD1D2A297FEE5500D6F8BD /* QuantumIT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QuantumIT.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10BD1D2D297FEE5500D6F8BD /* QuantumITApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuantumITApp.swift; sourceTree = "<group>"; };
 		10BD1D2F297FEE5500D6F8BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -169,7 +169,7 @@
 				10BD1D2D297FEE5500D6F8BD /* QuantumITApp.swift */,
 				10BD1D2F297FEE5500D6F8BD /* ContentView.swift */,
 				10BD1D31297FEE5600D6F8BD /* Assets.xcassets */,
-				102E9D272982B40800A2E474 /* GoogleService-Info.plist */,
+				102E9D312982CC6B00A2E474 /* GoogleService-Info.plist */,
 				10BD1D33297FEE5600D6F8BD /* Preview Content */,
 			);
 			path = QuantumIT;
@@ -341,7 +341,7 @@
 			files = (
 				10BD1D35297FEE5600D6F8BD /* Preview Assets.xcassets in Resources */,
 				10BD1D32297FEE5600D6F8BD /* Assets.xcassets in Resources */,
-				102E9D282982B40800A2E474 /* GoogleService-Info.plist in Resources */,
+				102E9D322982CC6C00A2E474 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

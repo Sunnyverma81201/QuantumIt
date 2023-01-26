@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct NavigationTabsView: View {
-    @State private var selectedItem = 5
+    @State private var selectedItem = 1
     
     var body: some View {
         TabView(selection: $selectedItem) {
