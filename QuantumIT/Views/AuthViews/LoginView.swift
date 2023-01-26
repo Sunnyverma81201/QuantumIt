@@ -72,21 +72,9 @@ struct LoginView: View {
                     
                     HStack{
                         
-                        //                Login with Apple Button
-                        //                        TODO: Requires Apple developer account
-                        Button {
-                            print("Hello")
-                        } label: {
-                            Image(systemName: "apple.logo")
-                                .resizable()
-                                .scaledToFit()
-                                .frame(width: 25)
-                        }
-                        .padding()
-                        .background(Color.black)
-                        .foregroundColor(.white)
-                        .cornerRadius(10)
-                        
+                        //Login with Apple Button
+                        // MARK: Requires Apple developer account
+                       
                         
                         //                    Login with Facebook Button
                         Button {
@@ -106,7 +94,7 @@ struct LoginView: View {
                         //                    Login with google Button
                         
                         Button {
-                            
+                            print("Hello")
                         } label: {
                             Image("google_logo")
                                 .resizable()

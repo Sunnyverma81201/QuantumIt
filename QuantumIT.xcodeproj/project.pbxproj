@@ -33,7 +33,6 @@
 		10BD1D65297FEFD000D6F8BD /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD1D64297FEFD000D6F8BD /* ProfileView.swift */; };
 		10BD1D67297FEFDD00D6F8BD /* CartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD1D66297FEFDD00D6F8BD /* CartView.swift */; };
 		10BD1D69297FEFE800D6F8BD /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD1D68297FEFE800D6F8BD /* LoginView.swift */; };
-		10BD1D6B297FEFFD00D6F8BD /* SignupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10BD1D6A297FEFFD00D6F8BD /* SignupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,7 +78,6 @@
 		10BD1D64297FEFD000D6F8BD /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		10BD1D66297FEFDD00D6F8BD /* CartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartView.swift; sourceTree = "<group>"; };
 		10BD1D68297FEFE800D6F8BD /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
-		10BD1D6A297FEFFD00D6F8BD /* SignupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +122,6 @@
 		102DEACB298265D200FFB26C /* AuthViews */ = {
 			isa = PBXGroup;
 			children = (
-				10BD1D6A297FEFFD00D6F8BD /* SignupView.swift */,
 				10BD1D68297FEFE800D6F8BD /* LoginView.swift */,
 			);
 			path = AuthViews;
@@ -372,7 +369,6 @@
 				10BD1D5F297FEF9200D6F8BD /* HomeView.swift in Sources */,
 				102E9D2A2982B93C00A2E474 /* LoginViewModel.swift in Sources */,
 				10BD1D69297FEFE800D6F8BD /* LoginView.swift in Sources */,
-				10BD1D6B297FEFFD00D6F8BD /* SignupView.swift in Sources */,
 				102DEACD298265FB00FFB26C /* CartDisplayView.swift in Sources */,
 				10BD1D30297FEE5500D6F8BD /* ContentView.swift in Sources */,
 				10BD1D2E297FEE5500D6F8BD /* QuantumITApp.swift in Sources */,
